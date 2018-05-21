@@ -1,8 +1,11 @@
 language: php
 
+php:
+  - '7.0'
+
 env:
   global:
-    - 'FTP_USER=id4892683_juanda'
+    - 'FTP_USER=nazilgaming98'
     - 'FTP_PASS=nazilst12345'
 
 
