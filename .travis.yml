@@ -8,8 +8,4 @@ env:
     - 'FTP_USER=nazilgaming98'
     - 'FTP_PASS=nazilst12345'
 
-
-script:
-  - "curl -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com -Q 'mkd public_html/project-uas'"
-  - "curl -T index.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/project-uas/"
   
